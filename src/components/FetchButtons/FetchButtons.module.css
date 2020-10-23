@@ -1,0 +1,27 @@
+.container {
+    max-width: 100%;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color .15s ease-in-out;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #343a40;
+}
